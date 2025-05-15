@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Web Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Web Store</h1>
+    <nav>
+      <ul>
+        <li><a href="                  
+        <li><a href="#">Keranjang</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="produk">
+      <h2>Produk</h2>
+      <div class="produk-list">
+        <div class="produk-item">
+          <img src="produk1.jpg" alt="Produk 1">
+          <h3>Produk 1</h3>
+          <p>Rp 100.000</p>
+          <button class="tambah-ke-keranjang" data-produk="Produk 1" data-harga="100000">Tambah ke Keranjang</button>
+        </div>
+        <div class="produk-item">
+          <img src="produk2.jpg" alt="Produk 2">
+          <h3>Produk 2</h3>
+          <p>Rp 200.000</p>
+          <button class="tambah-ke-keranjang" data-produk="Produk 2" data-harga="200000">Tambah ke Keranjang</button>
+        </div>
+      </div>
+    </section>
+    <section id="keranjang">
+      <h2>Keranjang</h2>
+      <div class="keranjang-list">
+        <!-- Keranjang akan diisi secara dinamis -->
+      </div>
+      <p>Total: <span id="total-harga">Rp 0</span></p>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
